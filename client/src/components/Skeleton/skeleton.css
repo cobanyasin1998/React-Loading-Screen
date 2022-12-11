@@ -1,0 +1,49 @@
+.post-sk {
+  width: 274px;
+  height: 274px;
+  margin-right: 12px;
+  margin-bottom: 30px;
+  animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton{
+    to{
+        opacity: 0.5;
+    }
+}
+
+.post-sk-img {
+  width: 274px;
+  height: 153px;
+  background: #323232;
+}
+
+.post-sk-info {
+  display: flex;
+  margin-top: 15px;
+}
+.post-sk-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #323232;
+  margin-right: 10px;
+}
+
+.post-sk-detail{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.post-sk-text{
+    background: #323232;
+    width: 90%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.post-sk-text.sm{
+    background: #323232;
+    width: 50%;
+    height: 20px;
+    margin-bottom: 5px;
+}

@@ -10,7 +10,9 @@ app.get("/api/user/1", (req, res) => {
   res.json(user);
 });
 app.get("/api/videos", (req, res) => {
-  res.json(videos);
+  setTimeout(function () {
+    res.json(videos);
+  }, 4000);
 });
 
 app.listen(5000, () => {
